@@ -1,0 +1,25 @@
+# Documentation + SDK repository. Never commit secrets.
+.env
+.env.*
+*.key
+*.pem
+id.json
+*-keypair.json
+*secret*
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+build/
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
+package-lock.json
