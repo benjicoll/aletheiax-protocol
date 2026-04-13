@@ -1,0 +1,11 @@
+{
+  "name": "aletheiax-protocol",
+  "private": true,
+  "description": "AletheiaX SDKs and protocol documentation.",
+  "license": "MIT",
+  "workspaces": ["packages/ts-sdk"],
+  "scripts": {
+    "build": "npm run build --workspace @aletheiax/sdk",
+    "test": "npm run test --workspace @aletheiax/sdk"
+  }
+}
