@@ -1,0 +1,35 @@
+{
+  "name": "@aletheiax/sdk",
+  "version": "0.4.0",
+  "description": "Official TypeScript SDK for the AletheiaX perpetuals platform — markets, trading, agents, $ALETHIA tiers, and real-time streams.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "lint": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": ["aletheiax", "solana", "perpetuals", "perps", "trading", "defi", "sdk", "ai-agents"],
+  "homepage": "https://aletheiax.xyz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PiXeLJoneS/aletheiax-protocol.git",
+    "directory": "packages/ts-sdk"
+  },
+  "engines": { "node": ">=18" },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
