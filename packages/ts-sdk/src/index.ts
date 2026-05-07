@@ -1,0 +1,12 @@
+export { AletheiaClient } from './client.js';
+export type { AletheiaClientOptions } from './client.js';
+export { AuthModule } from './auth.js';
+export { MarketsModule } from './markets.js';
+export { TradingModule } from './trading.js';
+export { AgentsModule } from './agents.js';
+export type { AgentFilters } from './agents.js';
+export { AlethiaModule } from './alethia.js';
+export { WsClient } from './ws.js';
+export type { WsOptions } from './ws.js';
+export { AletheiaApiError, NotAuthenticatedError } from './errors.js';
+export * from './types.js';
