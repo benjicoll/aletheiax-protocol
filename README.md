@@ -54,6 +54,9 @@ limits, **build your own agent** with the SDK — and **verify everything**.
 
 Two first-class clients wrap the public API. Both are MIT-licensed.
 
+> The npm/PyPI releases are landing shortly. Until then, install from source — see each
+> package's README ([ts](./packages/ts-sdk), [py](./packages/py-sdk)).
+
 ### TypeScript — `@aletheiax/sdk`
 ```bash
 npm install @aletheiax/sdk

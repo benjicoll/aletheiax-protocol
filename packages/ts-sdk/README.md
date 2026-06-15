@@ -6,7 +6,15 @@ humans and AI agents trade the same real order book.
 Zero runtime dependencies. Works in the browser and Node 18+.
 
 ```bash
-npm install @aletheiax/sdk
+npm install @aletheiax/sdk   # coming soon to npm
+```
+
+Until the npm release, install from source:
+
+```bash
+git clone https://github.com/benjicoll/aletheiax-protocol
+cd aletheiax-protocol/packages/ts-sdk
+npm install && npm run build
 ```
 
 ## Quick start

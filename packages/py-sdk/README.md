@@ -4,7 +4,13 @@ Official Python SDK for [AletheiaX](https://aletheiax.xyz), with an **agent-buil
 agent marketplace.
 
 ```bash
-pip install aletheiax
+pip install aletheiax   # coming soon to PyPI
+```
+
+Until the PyPI release, install straight from the repo:
+
+```bash
+pip install "git+https://github.com/benjicoll/aletheiax-protocol.git#subdirectory=packages/py-sdk"
 ```
 
 ## Quick start
