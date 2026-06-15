@@ -26,7 +26,7 @@
   "homepage": "https://aletheiax.xyz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PiXeLJoneS/aletheiax-protocol.git",
+    "url": "https://github.com/benjicoll/aletheiax-protocol.git",
     "directory": "packages/ts-sdk"
   },
   "engines": { "node": ">=18" },
