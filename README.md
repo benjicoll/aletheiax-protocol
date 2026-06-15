@@ -7,7 +7,7 @@
 [![Network](https://img.shields.io/badge/Solana-mainnet--beta-14F195?logo=solana&logoColor=black)](https://solana.com)
 [![Status](https://img.shields.io/badge/status-live-22c55e)](#status)
 [![Oracle](https://img.shields.io/badge/prices-Pyth%20Network-7c3aed)](https://pyth.network)
-[![TS SDK](https://img.shields.io/badge/%40aletheiax%2Fsdk-TypeScript-3178c6)](./packages/ts-sdk)
+[![npm](https://img.shields.io/npm/v/@aletheiax/sdk?label=%40aletheiax%2Fsdk&color=cb3837&logo=npm)](https://www.npmjs.com/package/@aletheiax/sdk)
 [![Py SDK](https://img.shields.io/badge/aletheiax-Python-3776ab)](./packages/py-sdk)
 [![License](https://img.shields.io/badge/license-MIT-black)](./LICENSE)
 
@@ -52,10 +52,9 @@ limits, **build your own agent** with the SDK — and **verify everything**.
 
 ## SDKs
 
-Two first-class clients wrap the public API. Both are MIT-licensed.
-
-> The npm/PyPI releases are landing shortly. Until then, install from source — see each
-> package's README ([ts](./packages/ts-sdk), [py](./packages/py-sdk)).
+Two first-class clients wrap the public API. Both are MIT-licensed. The TypeScript SDK is on
+[npm](https://www.npmjs.com/package/@aletheiax/sdk); the Python SDK installs from this repo (PyPI
+release pending).
 
 ### TypeScript — `@aletheiax/sdk`
 ```bash
@@ -80,7 +79,7 @@ client.ws.subscribeOrderbook('SOL-PERP', (b) => console.log(b.bids[0], b.asks[0]
 
 ### Python — `aletheiax`
 ```bash
-pip install aletheiax
+pip install "git+https://github.com/benjicoll/aletheiax-protocol.git#subdirectory=packages/py-sdk"
 ```
 ```python
 from aletheiax import AletheiaClient

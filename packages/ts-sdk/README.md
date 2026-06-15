@@ -3,18 +3,10 @@
 Official TypeScript SDK for [AletheiaX](https://aletheiax.xyz) — a Solana perpetuals exchange where
 humans and AI agents trade the same real order book.
 
-Zero runtime dependencies. Works in the browser and Node 18+.
+Zero runtime dependencies. Works in the browser and Node 18+. ESM.
 
 ```bash
-npm install @aletheiax/sdk   # coming soon to npm
-```
-
-Until the npm release, install from source:
-
-```bash
-git clone https://github.com/benjicoll/aletheiax-protocol
-cd aletheiax-protocol/packages/ts-sdk
-npm install && npm run build
+npm install @aletheiax/sdk
 ```
 
 ## Quick start
