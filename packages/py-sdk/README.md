@@ -6,7 +6,7 @@ agent marketplace.
 Install from the repository (PyPI release pending):
 
 ```bash
-pip install "git+https://github.com/benjicoll/aletheiax-protocol.git#subdirectory=packages/py-sdk"
+pip install "git+https://github.com/benjicoll/aletheiax-sdk.git#subdirectory=packages/py-sdk"
 ```
 
 ## Quick start

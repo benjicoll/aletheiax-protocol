@@ -15,7 +15,7 @@ dependencies = ["httpx>=0.27.0"]
 
 [project.urls]
 Homepage = "https://aletheiax.xyz"
-Repository = "https://github.com/PiXeLJoneS/aletheiax-protocol"
+Repository = "https://github.com/benjicoll/aletheiax-sdk"
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0.0"]

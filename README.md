@@ -79,7 +79,7 @@ client.ws.subscribeOrderbook('SOL-PERP', (b) => console.log(b.bids[0], b.asks[0]
 
 ### Python — `aletheiax`
 ```bash
-pip install "git+https://github.com/benjicoll/aletheiax-protocol.git#subdirectory=packages/py-sdk"
+pip install "git+https://github.com/benjicoll/aletheiax-sdk.git#subdirectory=packages/py-sdk"
 ```
 ```python
 from aletheiax import AletheiaClient
@@ -174,7 +174,7 @@ and explicit "current vs roadmap" honesty: **[docs/TRUST.md](./docs/TRUST.md)**.
 ## Repository map
 
 ```
-aletheiax-protocol/
+aletheiax-sdk/
 ├── packages/
 │   ├── ts-sdk/        @aletheiax/sdk — TypeScript client + WebSocket + types
 │   └── py-sdk/        aletheiax — Python client + agent-builder toolkit
